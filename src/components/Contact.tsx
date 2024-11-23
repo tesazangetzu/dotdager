@@ -60,7 +60,7 @@ export const Contact = () => {
                   <ErrorMessage
                     name="name"
                     component="p"
-                    className="text-sm text-custom-3"
+                    className="absolute text-sm text-custom-3"
                   />
                 </div>
                 <div className="mb-6">
@@ -94,7 +94,7 @@ export const Contact = () => {
                   <ErrorMessage
                     name="email"
                     component="p"
-                    className="text-sm text-custom-3"
+                    className="absolute text-sm text-custom-3"
                   />
                 </div>
                 <div
@@ -103,11 +103,11 @@ export const Contact = () => {
                   }`}
                 >
                   <Field type="text" name="phone" id="phone" placeholder=" " />
-                  <label htmlFor="phone">Phone</label>
+                  <label htmlFor="phone">Phone*</label>
                   <ErrorMessage
                     name="phone"
                     component="p"
-                    className="text-sm text-custom-3"
+                    className="absolute text-sm text-custom-3"
                   />
                 </div>
                 <div
@@ -120,7 +120,7 @@ export const Contact = () => {
                   <ErrorMessage
                     name="text"
                     component="p"
-                    className="text-sm text-custom-3"
+                    className="absolute text-sm text-custom-3"
                   />
                 </div>
                 <button

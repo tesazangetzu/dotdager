@@ -1,3 +1,8 @@
+@use "swiper/css";
+@use "swiper/css/pagination";
+@use "swiper/css/navigation";
+@use "./icons.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,14 +42,9 @@
   font-style: normal;
 }
 
-@import "swiper/css";
-@import "swiper/css/pagination";
-@import "swiper/css/navigation";
-@import "./icons.scss";
-
 body {
   font-family: "Aeonik Pro Regular", sans-serif;
-  background: white
+  background: white;
 }
 
 // h1,
@@ -106,9 +106,9 @@ strong {
     transform-origin: top left;
   }
 
-  &.error{
-    input{
-      border-bottom-color: #9F0202
+  &.error {
+    input {
+      border-bottom-color: #9f0202;
     }
   }
 }
@@ -152,7 +152,6 @@ strong {
     position: absolute;
     right: 145px;
   }
-
 
   @media (max-width: 1024px) {
     border-radius: 8px 30px 8px 8px;
@@ -304,7 +303,12 @@ svg path {
     transform: translateY(-5vh);
     animation-timing-function: ease-in;
   }
-  25%, 55%, 75%, 87%, 97%, 100% {
+  25%,
+  55%,
+  75%,
+  87%,
+  97%,
+  100% {
     transform: translateY(0);
     animation-timing-function: ease-out;
   }
