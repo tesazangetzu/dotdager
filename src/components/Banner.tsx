@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import mBig from "../images/d-big.png";
+import mBig from "../images/dd-bigger.png";
 import { motion } from "framer-motion";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
